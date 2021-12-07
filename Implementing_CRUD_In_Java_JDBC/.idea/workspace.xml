@@ -5,9 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf170c36-d229-4ea1-9290-55e022200ef7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/dao/CategoryDAOJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/dao/CategoryDAOJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/dao/IMovementDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/dao/IMovementDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/dao/IProcuctDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/dao/IProductDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/dao/IProviderDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/dao/IProviderDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/dao/ProductDAOJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/dao/ProductDAOJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/dao/ProviderDAOJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/dao/ProviderDAOJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/entity/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/entity/Provider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mypackage/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/dao/CategoryDAOJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mypackage/dao/CategoryDAOJDBC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/dao/IProcuctDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/dao/IProviderDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mypackage/dao/IProviderDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/dao/ProductDAOJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mypackage/dao/ProductDAOJDBC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/dao/ProviderDAOJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mypackage/dao/ProviderDAOJDBC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/entity/Provider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mypackage/entity/Provider.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +39,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="21xBnGzfkGhbmLSMU7ZWloUaeg9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />

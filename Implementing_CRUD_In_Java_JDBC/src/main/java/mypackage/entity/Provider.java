@@ -11,6 +11,11 @@ public class Provider {
         this.cnpj = cnpj;
     }
 
+    public Provider(String name, String cnpj) {
+        this.name = name;
+        this.cnpj = cnpj;
+    }
+
     public Integer getId() {
         return id;
     }

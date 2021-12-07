@@ -57,7 +57,7 @@ public class CategoryDAOJDBC implements ICategoryDAO{
 
     @Override
     public Category findById(Integer id) {
-        String sql = "SELECT id, name, date_category WHERE id = ?";
+        String sql = "SELECT id, name, date_category FROM category WHERE id = ?";
         Category category = null;
 
         try{
@@ -75,11 +75,11 @@ public class CategoryDAOJDBC implements ICategoryDAO{
 
     @Override
     public void update(Integer id, String name) {
-        String sql = "UPDATE category SET name = ?, WHERE id = ?";
+        String sql = "UPDATE category SET name = ? WHERE id = ?";
         try{
             PreparedStatement ps = this.connection.prepareStatement(sql);
-            ps.setInt(1, id);
-            ps.setString(2, name);
+            ps.setString(1, name);
+            ps.setInt(2, id);
             ps.executeUpdate();
         } catch (SQLException e){
             e.printStackTrace();
