@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf170c36-d229-4ea1-9290-55e022200ef7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/dao/IMovementDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/dao/IMovementDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/dao/MovementDAOJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/dao/MovementDAOJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/dao/ProductDAOJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/dao/ProductDAOJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/entity/TypeMovement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/entity/TypeMovement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mypackage/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/entity/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mypackage/entity/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/entity/Movement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/entity/Movement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

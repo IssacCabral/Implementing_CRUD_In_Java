@@ -8,6 +8,7 @@ public class Movement {
     private Integer productId;
     private Integer quantity_movement;
     private TypeMovement type;
+    private String typeMovementString;
     private double price;
     private Date dateMovement;
 
@@ -16,6 +17,15 @@ public class Movement {
         this.productId = productId;
         this.quantity_movement = quantity_movement;
         this.type = type;
+        this.price = price;
+        this.dateMovement = dateMovement;
+    }
+
+    public Movement(Integer id, Integer productId, Integer quantity_movement, String typeMovementString, double price, Date dateMovement) {
+        this.id = id;
+        this.productId = productId;
+        this.quantity_movement = quantity_movement;
+        this.typeMovementString = typeMovementString;
         this.price = price;
         this.dateMovement = dateMovement;
     }
@@ -30,6 +40,14 @@ public class Movement {
 
     public Integer getProductId() {
         return productId;
+    }
+
+    public String getTypeMovementString() {
+        return typeMovementString;
+    }
+
+    public void setTypeMovementString(String typeMovementString) {
+        this.typeMovementString = typeMovementString;
     }
 
     public void setProductId(Integer productId) {
