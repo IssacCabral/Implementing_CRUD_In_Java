@@ -18,5 +18,20 @@ public class App {
             System.out.println(product);
         }
 
+        Product product = new Product();
+        product.setName("Geladeira");
+        product.setCategory_id(5);
+        product.setCost_price(500);
+        product.setSale_price(700);
+        product.setDescription("Geladeira simples e barata");
+        product.setProvider_id(2);
+        product.setInventory_min(10);
+        productDAO.create(product);
+
+        productList = productDAO.listAll();
+        for(Product product1 : productList){
+            System.out.println(product1);
+        }
+
     }
 }

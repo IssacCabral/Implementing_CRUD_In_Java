@@ -44,6 +44,8 @@ public class Product {
         this.createDate = createDate;
     }
 
+    public Product(){}
+
     public Integer getId() {
         return id;
     }

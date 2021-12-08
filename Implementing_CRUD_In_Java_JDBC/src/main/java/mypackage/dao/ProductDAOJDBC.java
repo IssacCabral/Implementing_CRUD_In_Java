@@ -92,11 +92,33 @@ public class ProductDAOJDBC implements IProductDAO{
 
     @Override
     public void update(Integer id, String name, String description, Double cost_price, Double sale_price, Integer inventory_min) {
+        String sql = "UPDATE products SET name = ?, description = ?, cost_price = ?, " +
+                     "sale_price = ?, inventory_min = ?, category_id = ? WHERE id = ?";
 
+        try{
+            PreparedStatement ps = connection.prepareStatement(sql);
+            ps.setInt(1, id);
+            ps.setString(2, name);
+            ps.setString(3, description);
+            ps.setDouble(4, cost_price);
+            ps.setDouble(5, sale_price);
+            ps.setInt(6, inventory_min);
+            ps.executeUpdate();
+        } catch (SQLException e){
+            e.printStackTrace();
+        }
     }
 
     @Override
     public void delete(Integer id) {
+        String sql = "DELETE FROM products WHERE id = ?";
 
+        try{
+            PreparedStatement ps = this.connection.prepareStatement(sql);
+            ps.setInt(1, id);
+            ps.executeUpdate();
+        } catch (SQLException e){
+            e.printStackTrace();
+        }
     }
 }
