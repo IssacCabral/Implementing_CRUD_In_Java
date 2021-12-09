@@ -6,30 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cf170c36-d229-4ea1-9290-55e022200ef7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/dao/CategoryDAOJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/dao/CategoryDAOJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/dao/ICategoryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/dao/dao_interface/ICategoryDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/dao/IMovementDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/dao/dao_interface/IMovementDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/dao/IProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/dao/dao_interface/IProductDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/dao/IProviderDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/dao/dao_interface/IProviderDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/dao/MovementDAOJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/dao/MovementDAOJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/dao/ProductDAOJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/dao/ProductDAOJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/dao/ProviderDAOJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/dao/ProviderDAOJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/entity/Movement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/entity/Movement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mypackage/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypackage/entity/TypeMovement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mypackage/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/dao/CategoryDAOJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mypackage/dao/CategoryDAOJDBC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/dao/ICategoryDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/dao/IMovementDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/dao/IProductDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/dao/IProviderDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/dao/MovementDAOJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mypackage/dao/MovementDAOJDBC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/dao/ProductDAOJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mypackage/dao/ProductDAOJDBC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/dao/ProviderDAOJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mypackage/dao/ProviderDAOJDBC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/entity/Movement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mypackage/entity/Movement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mypackage/entity/TypeMovement.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
