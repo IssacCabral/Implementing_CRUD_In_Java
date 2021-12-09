@@ -1,6 +1,6 @@
 package mypackage.dao;
 
-import mypackage.entity.Category;
+import mypackage.dao.dao_interface.IProviderDAO;
 import mypackage.entity.Provider;
 
 import java.sql.Connection;
@@ -10,7 +10,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ProviderDAOJDBC implements IProviderDAO{
+public class ProviderDAOJDBC implements IProviderDAO {
     private final Connection connection;
 
     public ProviderDAOJDBC(Connection connection){

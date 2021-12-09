@@ -1,5 +1,6 @@
 package mypackage.dao;
 
+import mypackage.dao.dao_interface.ICategoryDAO;
 import mypackage.entity.Category;
 
 import java.sql.Connection;
@@ -9,7 +10,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CategoryDAOJDBC implements ICategoryDAO{
+public class CategoryDAOJDBC implements ICategoryDAO {
     private final Connection connection;
 
     public CategoryDAOJDBC(Connection connection){

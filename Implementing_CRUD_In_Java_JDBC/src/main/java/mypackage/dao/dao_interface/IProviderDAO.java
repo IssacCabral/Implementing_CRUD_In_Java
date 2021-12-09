@@ -1,4 +1,4 @@
-package mypackage.dao;
+package mypackage.dao.dao_interface;
 
 import mypackage.entity.Provider;
 

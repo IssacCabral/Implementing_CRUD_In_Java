@@ -1,5 +1,6 @@
 package mypackage.dao;
 
+import mypackage.dao.dao_interface.IMovementDAO;
 import mypackage.entity.Movement;
 
 import java.sql.Connection;
@@ -9,7 +10,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MovementDAOJDBC implements IMovementDAO{
+public class MovementDAOJDBC implements IMovementDAO {
     private final Connection connection;
 
     public MovementDAOJDBC(Connection connection){
@@ -19,9 +20,9 @@ public class MovementDAOJDBC implements IMovementDAO{
     private Movement map(ResultSet rs) throws SQLException {
         Movement movement = new Movement(
                 rs.getInt("id"),
-                rs.getInt("productId"),
+                rs.getInt("product_id"),
                 rs.getInt("quantity_movement"),
-                rs.getString("type"),
+                rs.getString("type_movement"),
                 rs.getDouble("price"),
                 rs.getDate("date_movement")
         );
@@ -30,14 +31,14 @@ public class MovementDAOJDBC implements IMovementDAO{
 
     @Override
     public void create(Movement movement) {
-        String sql = "INSERT INTO movement(product_id, quantity_movement, type) VALUES" +
+        String sql = "INSERT INTO movement(product_id, quantity_movement, type_movement) VALUES" +
                      "(?, ?, ?)";
 
         try{
             PreparedStatement ps = connection.prepareStatement(sql);
             ps.setInt(1, movement.getProductId());
             ps.setInt(2, movement.getQuantity_movement());
-            ps.setString(3, movement.getType().type_value);
+            ps.setString(3, movement.getTypeMovementString());
             ps.executeUpdate();
         } catch (SQLException e){
             e.printStackTrace();

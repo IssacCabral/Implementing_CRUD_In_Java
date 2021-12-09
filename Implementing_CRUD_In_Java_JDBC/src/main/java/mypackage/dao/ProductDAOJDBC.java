@@ -1,7 +1,7 @@
 package mypackage.dao;
 
+import mypackage.dao.dao_interface.IProductDAO;
 import mypackage.entity.Product;
-import mypackage.entity.Provider;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -10,7 +10,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ProductDAOJDBC implements IProductDAO{
+public class ProductDAOJDBC implements IProductDAO {
     private final Connection connection;
 
     public ProductDAOJDBC(Connection connection) {
@@ -93,16 +93,16 @@ public class ProductDAOJDBC implements IProductDAO{
     @Override
     public void update(Integer id, String name, String description, Double cost_price, Double sale_price, Integer inventory_min) {
         String sql = "UPDATE products SET name = ?, description = ?, cost_price = ?, " +
-                     "sale_price = ?, inventory_min = ?, category_id = ? WHERE id = ?";
+                     "sale_price = ?, inventory_min = ? WHERE id = ?";
 
         try{
             PreparedStatement ps = connection.prepareStatement(sql);
-            ps.setInt(1, id);
-            ps.setString(2, name);
-            ps.setString(3, description);
-            ps.setDouble(4, cost_price);
-            ps.setDouble(5, sale_price);
-            ps.setInt(6, inventory_min);
+            ps.setString(1, name);
+            ps.setString(2, description);
+            ps.setDouble(3, cost_price);
+            ps.setDouble(4, sale_price);
+            ps.setInt(5, inventory_min);
+            ps.setInt(6, id);
             ps.executeUpdate();
         } catch (SQLException e){
             e.printStackTrace();

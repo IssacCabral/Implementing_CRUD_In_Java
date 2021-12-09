@@ -27,7 +27,7 @@ CREATE TABLE movement (
   id SERIAL PRIMARY KEY,
   product_id INTEGER REFERENCES product (id) ON UPDATE CASCADE ON DELETE SET NULL,
   quantity_movement INTEGER NOT NULL,
-  type varchar(3) NOT NULL,
+  type_movement varchar(3) NOT NULL,
   price DECIMAL,
   date_movement TIMESTAMP DEFAULT NOW()
 );

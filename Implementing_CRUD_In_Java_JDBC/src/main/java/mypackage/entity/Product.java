@@ -44,6 +44,16 @@ public class Product {
         this.createDate = createDate;
     }
 
+    public Product(String name, String description, double cost_price, double sale_price, Integer category_id, Integer provider_id, Integer inventory_min) {
+        this.name = name;
+        this.description = description;
+        this.cost_price = cost_price;
+        this.sale_price = sale_price;
+        this.category_id = category_id;
+        this.provider_id = provider_id;
+        this.inventory_min = inventory_min;
+    }
+
     public Product(){}
 
     public Integer getId() {

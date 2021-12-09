@@ -7,19 +7,9 @@ public class Movement {
     private Integer id;
     private Integer productId;
     private Integer quantity_movement;
-    private TypeMovement type;
     private String typeMovementString;
     private double price;
     private Date dateMovement;
-
-    public Movement(Integer id, Integer productId, Integer quantity_movement, TypeMovement type, double price, Date dateMovement) {
-        this.id = id;
-        this.productId = productId;
-        this.quantity_movement = quantity_movement;
-        this.type = type;
-        this.price = price;
-        this.dateMovement = dateMovement;
-    }
 
     public Movement(Integer id, Integer productId, Integer quantity_movement, String typeMovementString, double price, Date dateMovement) {
         this.id = id;
@@ -28,6 +18,12 @@ public class Movement {
         this.typeMovementString = typeMovementString;
         this.price = price;
         this.dateMovement = dateMovement;
+    }
+
+    public Movement(Integer productId, Integer quantity_movement, String typeMovementString) {
+        this.productId = productId;
+        this.quantity_movement = quantity_movement;
+        this.typeMovementString = typeMovementString;
     }
 
     public Integer getId() {
@@ -62,13 +58,6 @@ public class Movement {
         this.quantity_movement = quantity_movement;
     }
 
-    public TypeMovement getType() {
-        return type;
-    }
-
-    public void setType(TypeMovement type) {
-        this.type = type;
-    }
 
     public double getPrice() {
         return price;
@@ -92,7 +81,7 @@ public class Movement {
                 "id=" + id +
                 ", productId=" + productId +
                 ", quantity_movement=" + quantity_movement +
-                ", type=" + type +
+                ", type=" + typeMovementString +
                 ", price=" + price +
                 ", dateMovement=" + dateMovement +
                 '}';
