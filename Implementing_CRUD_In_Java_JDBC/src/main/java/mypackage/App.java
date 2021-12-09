@@ -15,5 +15,6 @@ public class App {
     public static void main(String[] args) throws SQLException {
         View view = new View(ConnectionFactory.getConnection());
         view.mainRun();
+
     }
 }

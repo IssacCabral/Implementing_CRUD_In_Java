@@ -87,6 +87,7 @@ public class View {
                     Integer inventoryMin = Integer.parseInt(JOptionPane.showInputDialog(null, "Inventory Min"));
                     Product product = new Product(nameProduct, description, costPrice, salePrice, categoryId, providerId, inventoryMin);
                     productController.create(product);
+                    JOptionPane.showMessageDialog(null, "Insert Ok!");
                     break;
 
                 case "4":
