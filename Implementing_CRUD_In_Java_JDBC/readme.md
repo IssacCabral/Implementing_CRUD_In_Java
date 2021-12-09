@@ -22,10 +22,10 @@ Os próximos passos são implementar com Spring/JPA</h3>
 
 <h1>Listando Os dados</h1>
 
-Dados no banco:
+Dados no banco:<br>
 <img src="preview/select_category.png">
 
-Dados na aplicação:
+Dados na aplicação:<br>
 <img src="preview/1.png">
 
 <h1>Inserindo Um novo Produto</h1>
